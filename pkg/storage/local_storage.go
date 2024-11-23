@@ -31,3 +31,15 @@ func (s *LocalStorage) Save(path string, data io.Reader) error {
 	_, err = io.Copy(file, data)
 	return err
 }
+
+func (s *LocalStorage) Read(path string) (io.ReadCloser, error) {
+	return nil, nil
+}
+
+func (s *LocalStorage) Delete(path string) error {
+	return nil
+}
+
+func (s *LocalStorage) List(path string) ([]string, error) {
+	return nil, nil
+}

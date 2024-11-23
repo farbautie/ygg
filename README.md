@@ -26,7 +26,7 @@ and secure space for storing data without relying on external services.
 
 - 🖥️ Software:
   - Raspberry Pi OS (32-bit or 64-bit) or Ubuntu
-  - Backend: Go (1.23.x)
+  - Backend:
   - Frontend: React (18.3.x)
   - Optional: Docker for containerized deployment.
 
@@ -42,7 +42,7 @@ and secure space for storing data without relying on external services.
 
 ## Roadmap
 
-- [ ] Basic local storage API in Go
+- [ ] Basic local storage API
 - [ ] Implement a local file upload/download system
 - [ ] Develop a basic frontend for file management
 - [ ] Implement a basic authentication System
