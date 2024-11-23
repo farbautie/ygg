@@ -17,10 +17,12 @@
     "@types/express": "^5.0.0",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "morgan": "^1.10.0",
     "winston": "^3.17.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/morgan": "^1.9.9",
     "@types/node": "^22.9.3",
     "pkgroll": "^2.5.1",
     "tsx": "^4.19.2",

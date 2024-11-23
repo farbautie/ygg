@@ -6,9 +6,7 @@ export const logger = createLogger({
   format: format.combine(
     config.NODE_ENV === 'development' ? format.colorize() : format.uncolorize(),
     format.splat(),
-    format.printf(
-      (info) => `${info.timestamp} ${info.level} [${info.label}]: ${info.message}`
-    )
+    format.printf(({ level, message }) => `${level}: ${message}`)
   ),
   transports: [
     new transports.Console({
