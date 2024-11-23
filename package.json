@@ -1,0 +1,26 @@
+{
+  "name": "ygg",
+  "version": "0.0.0",
+  "description": "",
+  "author": "farbautie",
+  "license": "AGPL-3.0",
+  "main": "index.js",
+  "exports": "./dist/index.mjs",
+  "type": "module",
+  "keywords": [],
+  "scripts": {
+    "build": "pkgroll --minify",
+    "start": "node dist/index.mjs",
+    "dev": "tsx watch --clear-screen=false src/index.ts"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.3",
+    "pkgroll": "^2.5.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
